@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="form.js"></script> 
 </head>
-<body>
-    <form method="POST" action="http://localhost:3000/profile">
-    </form>
-    
+<body>    
     <nav>
-        <a href="/index.html">Home</a>
-         <a href="/form.html">Form</a>
+        <a href="index.html">Home</a>
+         <a href="form.html">Form</a>
     </nav>
     
-    <form>
+   <div>
         <label for="fname">First name: </label><br>
             <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last name: </label><br>
             <input type="text" id="lname" name="lname"><br>
-            <button type="submit">Submit form</button>
-    </form>
-    
+            <button onclick="onClick()">Submit form</button>
+   </div>
 </body>
 </html>
