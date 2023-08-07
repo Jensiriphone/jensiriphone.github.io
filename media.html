@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Media</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        /* Ask how to center vertically? */
+        .flower {
+            display: flex;
+            order: 1;
+            flex-direction: column;
+        }
+
+        .dino {
+            display: flex;
+            order: 2;
+            flex-direction: column;
+        }
+
+        .imagerandom {
+            display: flex;
+            order: 3;
+        }
+
+        .flower, .dino, .imagerandom {
+           
+        }
+            
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Site Heading">
+        <h1>Practice<br>Media</h1>
+    </div>
+
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/resume.html">Resume</a>
+        <a href="/form.html">Form</a>
+        <a href="/media.html">Media</a>
+        <a href="/list.html">List</a>
+    </nav>
+<div class="container">
+
+    <div class="flower">
+    <h2>A Beautiful Flower</h2>
+        <video width="320" height="240" controls autoplay>
+            <source src="/media/flower.webm" title="flower opening"></source>
+        </video>
+        <p>Opening flower</p>
+    </div>
+
+    <div class="dino">
+        <h2>Dino Roar</h2>
+        <audio controls autoplay>
+            <source src="/media/trex.mp3" title="dinosaur roar"></source>
+        </audio>
+    <div>
+
+    <div class="imagerandom">
+        <img src="https://picsum.photos/200/300" alt="" />
+    </div>
+</div>
+</body>
+</html>
