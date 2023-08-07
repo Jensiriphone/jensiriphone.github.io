@@ -1,34 +1,42 @@
 nav {
-  background-color: orange;
   text-align: center;
+  word-spacing: 5px;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-decoration: overline underline;
+  text-decoration-color: darkred;
 }
 
 body {
-    background-image: url("/images/bg.jpg");
-    background-repeat: repeat;
-  }
-  
-  h1 {
-    color:darkslategray;
-    background-color: lightpink;
-    font-family:fantasy;
-    text-align: center;
-    font-size:xx-large;
-  }
+  background-image: url("images/bghome.jpg");
+  background-repeat: repeat;
+}
 
-  h2 {
-    color: darkslategrey;
-    background-color: lightseagreen;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  div {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: darkslategray;
-  }
+h1 {
+  text-align: center;
+  color:darkred;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
 
-  
-    table, th, td{
-      border: 1px solid black;
-    }
+.form {
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid black;
+  padding: 1px;
+  margin-top: 2%;
+  background-image: linear-gradient(to bottom, rgba(240, 255, 40, 1) 0%, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
+  background-clip: content-box, padding-box;
+  background-color: lightpink;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form input {
+  width: 50%;
+  padding: 5px;
+}
+
+.form button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
