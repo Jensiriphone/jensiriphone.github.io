@@ -1,0 +1,50 @@
+body {
+    margin-bottom: 50px;
+}
+
+.name {
+    text-align: center;
+}
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: lightgrey;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    padding: 2%;
+}
+
+.flexbox-item-2 {
+    min-height: 100px;
+    flex-grow: 2;
+    padding: 2%;
+}
+
+.flexbox-item-3 {
+    min-height: 100px;
+}
+
+button {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+background-color: hotpink;
+border: darkgrey;
+border-radius: 4px;
+}
+
+@media screen and (max-width: 844px) {
+    .flexbox-container {
+        flex-direction: column;
+    margin: 40px;
+    }
+}
+
